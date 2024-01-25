@@ -66,6 +66,8 @@ def mesa():
     return año
 print("el mes en que cumples años es: ",mesa())
 
+##------------arreglos--------------
+
 nombre_de_estudiantes = ['Alexa', 'Daniela', 'Oliver', 'Paula']
 print("el nombre de los estudiantes son:")
 print(nombre_de_estudiantes[0])
@@ -74,7 +76,7 @@ print(nombre_de_estudiantes[2])
 print(nombre_de_estudiantes[3])
 
 
-##------------arreglos--------------
+
 
 
 
