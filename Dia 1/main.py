@@ -45,5 +45,37 @@ if texto1 == "campus":
     print("soy campus")
 else:
     print("no soy campus")
-    ####
+    
+## ----------------Funciones---------
+## funciones con parametros y con retorno 
+def suma(a, b):
+    return a +  b
+result = suma(5, 5)
+print("la suma de 5+5 es ",result)
+## funcion sin parametros y sin retorno
+def saludar():
+    print("hola")
+## funcion con parametro y sin retorno 
+def holaConNombre(name):
+  print("Hola " + name + "!")
+
+holaConNombre("Dani") 
+## funcion sin parametros y con retorno 
+def mesa():
+    año = int(input("¿en que año naciste?"))
+    return año
+print("el mes en que cumples años es: ",mesa())
+
+nombre_de_estudiantes = ['Alexa', 'Daniela', 'Oliver', 'Paula']
+print("el nombre de los estudiantes son:")
+print(nombre_de_estudiantes[0])
+print(nombre_de_estudiantes[1])
+print(nombre_de_estudiantes[2])
+print(nombre_de_estudiantes[3])
+
+
+##------------arreglos--------------
+
+
+
 ## desarrollado por KAREN DANIELA QUIÑONEZ - 1097496454
