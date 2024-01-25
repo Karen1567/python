@@ -45,5 +45,5 @@ if texto1 == "campus":
     print("soy campus")
 else:
     print("no soy campus")
-
+    ####
 ## desarrollado por KAREN DANIELA QUIÑONEZ - 1097496454
