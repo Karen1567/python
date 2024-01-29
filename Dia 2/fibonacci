@@ -1,0 +1,19 @@
+##--------------fibonacci-----------
+print ("la secuencia fibonacci")
+print ("es una secuencia de números en la que, después del 0 y del 1, cada número de la serie se obtiene sumando los dos anteriores. De esta manera la secuencia sería: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89.......")
+d = int(input("ingresa un numero = "))
+a = 0
+b = 1
+
+for i in range(d):
+    print(a)
+    c=a+b
+    a=b
+    b=c
+
+print ('se finalizo la secuencia')
+
+
+
+
+
