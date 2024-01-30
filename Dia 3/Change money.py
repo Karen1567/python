@@ -1,5 +1,5 @@
 a = int(input("enter the amount"))
-if a < 104 and a > 0:
+if a < 1000 and a > 0:
     b = a % 10
     c = b % 5
     d = a // 10
