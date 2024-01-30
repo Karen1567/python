@@ -8,4 +8,4 @@ if a < 104 and a > 0:
     print ("the 5 coins are: ",e)
     print ("the 1 coins are: ",c)
 else:
-    print ("number out of range")
+    print ("number out of range.")
