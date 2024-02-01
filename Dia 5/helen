@@ -1,0 +1,34 @@
+def calculate_leg_lengths(coins, table_height):
+    min_length = float('inf')
+    max_length = 0
+
+    for i in range(len(coins)):
+        for j in range(i, len(coins)):
+            for k in range(j, len(coins)):
+                for l in range(k, len(coins)):
+                    leg_length = coins[i] + coins[j] + coins[k] + coins[l]
+                    min_length = min(min_length, leg_length)
+                    max_length = max(max_length, leg_length)
+
+    return min_length, max_length
+
+
+def main():
+    while True:
+        n, t = map(int, input().split())
+
+        if n == 0 and t == 0:
+            break
+
+        coins = [int(input()) for _ in range(n)]
+        table_heights = [int(input()) for _ in range(t)]
+
+        for height in table_heights:
+            min_length, max_length = calculate_leg_lengths(coins, height)
+            print(f"{max_length} {min_length}")
+
+        print()
+
+
+if __name__ == "__main__":
+    main()
