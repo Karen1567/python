@@ -24,6 +24,14 @@ print ("ejercicio 3")
 print ("            ")
 pedidos_ordenados2 = set(pedidos,["id_cliente"])
 print(pedidos_ordenados2)
+print ("            ")
+
+clientes = set()
+for pedido in pedidos:
+    clientes.add(pedido['id_cliente'])
+clientes_con_pedido = list(clientes)
+for i in clientes_con_pedido:
+    print("id_cliente ",i)
 
 
 
